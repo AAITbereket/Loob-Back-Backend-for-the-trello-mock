@@ -1,9 +1,9 @@
 {
   "db": {
-    "name": "db",
     "host": "localhost",
     "port": 27017,
     "database": "ahadoo_todos",
+    "name": "db",
     "connector": "mongodb"
   }
 }

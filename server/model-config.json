@@ -38,5 +38,9 @@
   "Todo": {
     "dataSource": "db",
     "public": true
+  },
+  "TaskList": {
+    "dataSource": "db",
+    "public": true
   }
 }
