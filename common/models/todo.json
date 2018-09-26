@@ -7,12 +7,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "title": {
+    "Id": {
+      "type": "string",
+      "id": true
+    },
+    "body": {
       "type": "string",
       "required": true
-    },
-    "description": {
-      "type": "string"
     },
     "status": {
       "type": "boolean",
