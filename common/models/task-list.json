@@ -6,7 +6,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "Id": {
+    "id": {
       "type": "string",
       "id": true
     },
@@ -16,7 +16,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "todos": {
+      "type": "hasMany",
+      "model": "Todo",
+      "foreignKey": "taskListId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
